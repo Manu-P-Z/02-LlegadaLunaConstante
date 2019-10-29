@@ -19,19 +19,22 @@ package org.japo.java;
  *
  * @author Manu Portolés
  */
-public class main {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         
-        final int ANY_LLEGADA_LUNA = 1969;
+        final String SALUDO_CONSTANTE = "¡Hola mundo!";
         
-        System.out.printf("%s %d.%n", "El hombre llegó a la luna en", ANY_LLEGADA_LUNA);
+        System.out.printf("%s%n", SALUDO_CONSTANTE);
+                
+       
         
-
         
+        
+       
     }
     
 }
